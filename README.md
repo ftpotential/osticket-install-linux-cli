@@ -59,10 +59,10 @@ sudo rm /var/www/html/index.html
 mkdir osticket && cd osticket
 # Create a directory for OsTicket and cd into it
 
-wget https://github.com/osTicket/osTicket/releases/download/v1.14.1/osTicket-v1.14.1.zip
+wget https://github.com/osTicket/osTicket/releases/download/v1.18.1/osTicket-v1.18.1.zip
 # Download the OsTicket installation package
 
-unzip osTicket-v1.14.1.zip
+unzip osTicket-v1.18.1.zip
 # Unzip the downloaded OsTicket package
 
 sudo mv upload/* /var/www/html
